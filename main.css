@@ -1,203 +1,64 @@
-
-/* Version 1 */
-/* html {
-    height: auto;
-    margin: 10% 20%;
-    border-style:double ;
-    border-width: 5px;
-    background: linear-gradient(to left top,#ffeaed, #fff8f9);
-    word-wrap: break-word;
-}
-
-body {
-    font-family: "Tangerine", cursive;
-    text-align: center;
-}
-
-h1 {
-    margin: 5rem;
-    font-size: 2rem;
-    font-family: 'Delius';
-}
-
-#us {
-    font-size: 4rem;
-    text-shadow: 10px 10px 0px white;
-}
-
-#last {
-    font-size: 2.5rem;
-    padding-left: 350px;
-    
-}
-
-#when {
-    font-size: 1.5rem;
-    font-family: 'Delius';
-}
-
-#where {
-    font-size: 4rem;
-} */
-
-
-/* Version 2 */
- /* html {
-    height: auto;
-    margin: 10% 10%;
-    border-style:double ;
-    border-width: 15px;
-    border-color: #800000;
-    word-wrap: break-word;
-}
-body {
-    background-image: url(Pineapple.png);
-    text-align: center;
-    padding: 5rem;
-    background-position:center;
-}
-
-div {
-    display: block;
-    padding: 5rem;
-    justify-content: space-between;
-}
-
-h1 {
-    font-size: 7rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-}
-
-span {
-    font-family: "Euphoria Script", cursive;
-}
-
-h2 {
-    border-style: solid;
-    border-width: 1px 0px;
-    border-color: #800000;
-    padding: 1rem;
-    justify-content: space-evenly;
-    font-size: 3rem;
-    font-weight: 100;
-}
-
-h3 {
-    padding-bottom: 10%;
-    font-size: 3.5rem;
-    font-weight: 100;
-    border: solid;
-    border-width: 0px 0px 1px 0px;
-    border-color: #800000;
-}
-
-h4 {
-    font-size: 2rem;
-    font-weight: 100;
-}
-
-h5 {
-    font-weight: 100px;
-    font-size: 1.25rem;
-}
-
-h6 {
-    font-size: 1rem;
-} */
-
-/* Version 3 */
-
 html {
-    /* background-image: url(Pineapple.png);
-    background-repeat: no-repeat;
-    background-position-x: 25%;
-    border-style:double ;
-    border-width: 15px;
-    border-color: #800000; */
-    height: auto;
-    margin: 10% 10%;
-    word-wrap: break-word;
+    margin: auto;
+    width: 400px;
+    height: 850px;
 }
 body {
+    height: 100%
+}
+#container {
     text-align: center;
-    /* margin: 500px; */
-    padding: 5rem;
-    /* background-position-y: bottom; */
-    
-}
-
-#div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-image: url(Pineapple.png);
-    background-repeat: no-repeat;
-    background-position-x: inherit;
+    background-size: 50%;
     border-style:double ;
-    border-width: 15px;
+    border-width: 10px;
     border-color: #800000;
+    height: 100%
 }
 
-div {
-    display: block;
-    padding: 2rem;
-    justify-content: space-between;
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h1 {
-    font-size: 7rem;
-    font-family: "Euphoria Script", cursive;
-    font-weight: 100;
-    margin:0;
-}
-
-
-h2 {
-    border-style: solid;
-    border-width: 1px 0px;
-    border-color: #800000;
-    padding: 1rem;
-    justify-content: space-evenly;
-    font-size: 3rem;
-    font-weight: 100;
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 400;
-    font-style: normal;
-    margin:0;
-}
-
-h3 {
-    font-size: 3.5rem;
-    font-weight: 100;
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h4 {
-    margin-top: 0px;
-    font-size: 2.5rem;
-    font-weight: 100;
-    font-family: "Euphoria Script", cursive;
-}
-
-#special {
-    border: solid;
-    border-width: 1px 0px 0px 0px;
-    border-color: #800000;
-    padding-top: 2.5rem;
-    font-size: 2.5rem;
-    font-family: "Euphoria Script", cursive;
-}
-
-span {
-    font-size: 3rem;
-}
-
-h6 {
+.aloha {
     font-size: 2rem;
-    font-family: "Covered By Your Grace", cursive;
+    font-family: "Euphoria Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.who {
+    font-family: "Covered By Your Grace", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.invited{
+    font-size: 1em;
+    font-family: "Euphoria Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.celebrate {
+    font-family: "Euphoria Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.save {
+    font-family: "Covered By Your Grace", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.when {
+    font-family: "Covered By Your Grace", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.where {
+    font-family: "Covered By Your Grace", serif;
     font-weight: 400;
     font-style: normal;
 }
