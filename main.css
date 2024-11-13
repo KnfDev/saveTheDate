@@ -1,11 +1,12 @@
 html {
     margin: 5% auto;
     width: 400px;
-    height: 850px;
+    height: 650px;
 }
 body {
     height: 100%;
     margin: 0;
+
 }
 #container {
     margin:0;
@@ -13,21 +14,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: url(Pineapple.png);
-    background-size: 50%;
-    border-style:double ;
-    border-width: 10px;
-    border-color: #800000;
-    border-radius: 15px;
-    height: 100%
+    border-image: url(Pineapple3.png);
+    border-style:solid;
+    border-width: 50px;
+    height: 100%;
 }
 
+
 .aloha {
+    border-top: solid 1px;
+    padding-top: 25px;
+    border-color: #800000;
     margin:0;
     font-size: 2rem;
     font-family: "Euphoria Script", serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 .who {
@@ -36,6 +39,8 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 .invited{
     margin:0;
@@ -50,6 +55,9 @@ body {
     font-family: "Euphoria Script", serif;
     font-weight: 400;
     font-style: normal;
+    border-top: solid 1px;
+    padding-top: 50px;
+    border-color: #800000;
 }
 
 .save {
@@ -64,6 +72,10 @@ body {
     font-family: "Covered By Your Grace", serif;
     font-weight: 400;
     font-style: normal;
+    padding: 10px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #800000;
 }
 
 .where {
@@ -71,4 +83,7 @@ body {
     font-family: "Covered By Your Grace", serif;
     font-weight: 400;
     font-style: normal;
+    border-bottom: solid 1px;
+    border-color: #800000;
+    padding: 25px;
 }
