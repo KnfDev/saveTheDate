@@ -89,3 +89,19 @@ body {
     border-bottom: solid 2.5x;
     border-color: #800000;
 }
+
+
+@media (min-width: 900px){
+    html {
+        width: 935px;
+        height: 430px;
+    }
+}
+
+
+@media (min-width: 1900px){
+    html {
+        width: 1500px;
+        height: 1080px;
+    }
+}
